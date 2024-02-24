@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #ff7800;
+  --ifm-color-primary-dark: #e66c00;
+  --ifm-color-primary-darker: #d96600;
+  --ifm-color-primary-darkest: #b35400;
+  --ifm-color-primary-light: #ff861a;
+  --ifm-color-primary-lighter: #ff8c26;
+  --ifm-color-primary-lightest: #ffa14d;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  --ifm-font-family-base: 'Roboto Mono';
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #ffa348;
+  --ifm-color-primary-dark: #ff9327;
+  --ifm-color-primary-darker: #ff8a17;
+  --ifm-color-primary-darkest: #e57200;
+  --ifm-color-primary-light: #ffb369;
+  --ifm-color-primary-lighter: #ffbc79;
+  --ifm-color-primary-lightest: #ffd4aa;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+
+.table {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+@media screen and (min-width: 700px){
+  .table {
+    flex-direction: row;
+  }
+}
+
+.may {
+  flex: 50%;
+  border-radius: 0.4rem;
+  padding: 1rem;
+  background-color: #bbe7f7;
+}
+
+.cody {
+  flex: 50%;
+  border-radius: 0.4rem;
+  padding: 1rem;
+  background-color: #c7ebc7;
+}
+
+[data-theme='dark'] .may {
+  background-color: #286071;
+}
+
+[data-theme='dark'] .cody {
+  background-color: #3a7128;
+}

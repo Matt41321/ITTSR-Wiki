@@ -1,0 +1,133 @@
+---
+"sidebar-position": 0
+---
+
+import {YouTube} from 'mdx-embed';
+
+# Template reference
+This will show you examples of how to write a tutorial.
+
+:::caution FOR AUTHORS:
+Note that this page will be removed down the line once most pages have been filled out, as we can use those as reference instead.
+:::
+
+## Heading that shows up in the sidebar on the right
+Some information
+
+### Sub-part of that above heading
+And you can continue like this with further \##s 
+
+## Different strats at the same time
+If May and Cody are doing different strats at the same time, you should use a combination of the \<Table>,\<May> and \<Cody> tags.
+
+<Table> 
+<May>
+This let's you split up the strats neatly.
+</May>
+<Cody>
+And you can see Cody is doing something different over here.
+</Cody>
+</Table>
+
+If they're doing strats at the same time, leave it as is.
+
+<May>
+You can also just use the May or Cody tag if it doesn't make sense to use them both, but you still need to clearly show it's a strat for the specific character.
+</May>
+
+
+## Indicating difficulty
+
+When there are multiple variations to a strat, we can use these to indicate the respective difficulty.
+
+<Table>
+:::easy
+Use \:::easy to indicate an easy strat.
+:::
+
+:::medium
+Use \:::medium to indicate a medium strat.
+:::
+
+:::hard You can also override the difficulty title
+Use \:::hard to indicate a hard strat.
+:::
+</Table>
+
+<Table>
+<May>
+
+:::easy
+This can be used in combination with the \<May> and \<Cody> tags from before
+:::
+
+:::medium
+A medium strat
+:::
+
+:::hard
+A hard strat
+:::
+
+:::info
+Some info
+:::
+
+</May>
+<Cody>
+
+:::easy
+An easy strat
+:::
+
+:::medium
+A medium strat for Cody
+:::
+
+:::hard
+A hard strat for Cody
+:::
+
+</Cody>
+</Table>
+
+## Something
+
+We can also use these to indicate different things
+
+<Table>
+:::note
+This is a \:::note
+:::
+
+:::tip
+This is a \:::tip
+:::
+
+:::info
+This is a \:::info
+:::
+
+:::caution
+This is a \:::caution
+:::
+
+:::danger
+This is a \:::danger
+:::
+</Table>
+
+
+
+
+
+
+## Inserting youtube embeds
+
+Use the \<Youtube youtubeId=INSERTID> tag to embed a youtube video.
+
+<YouTube youTubeId="_qoJjQynwMU"/>
+
+## General markdown syntax
+
+Check out the general syntax [here](https://www.markdownguide.org/basic-syntax/)

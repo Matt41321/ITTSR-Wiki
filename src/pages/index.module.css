@@ -1,0 +1,26 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 10rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-image: url(https://media.contentapi.ea.com/content/dam/eacom/it-takes-two/images/2020/12/itt-hero-large-keyart-16x9-xl.jpg.adapt.crop16x9.3840w.jpg);
+  background-position-y: 45%;
+  background-size: 115%;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
